@@ -31,6 +31,7 @@ RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
 COPY requirements.txt /tmp/.
 WORKDIR /tmp
 RUN pip install --no-cache-dir -r requirements.txt
+COPY mapr-streams-mxnet-face /tmp/mapr-streams-mxnet-face
 
 EXPOSE 6006 8888
 
