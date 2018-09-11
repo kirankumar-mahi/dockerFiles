@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/tensorrt:18.08-py3 
+FROM nvcr.io/nvidia/tensorrt:18.08-py2 
 MAINTAINER Dong Meng <mengdong0427@gmail.com> 
 
 # Install build-essential, git, wget and other dependencies
