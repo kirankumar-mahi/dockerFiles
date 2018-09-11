@@ -1,0 +1,16 @@
+ipython
+jupyter
+numpy
+graphviz
+mxnet
+xgboost
+opencv-python
+easydict
+scipy 
+matplotlib
+pandas
+Pillow
+h5py
+ipykernel 
+sklearn 
+scikit-image
