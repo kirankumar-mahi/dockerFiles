@@ -2,9 +2,7 @@ FROM ubuntu:18.10
 MAINTAINER Dong Meng <mengdong0427@gmail.com> 
 
 # Install build-essential, git, wget and other dependencies
-RUN unlink /etc/localtime && \
-    ln -s /usr/share/zoneinfo/America/Los_Angeles /etc/localtime && \
-    apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y \
     build-essential \
     git \
     curl \
