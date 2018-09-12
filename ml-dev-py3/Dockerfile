@@ -1,15 +1,17 @@
-FROM ubuntu:18.10
+FROM ubuntu:16.04
 MAINTAINER Dong Meng <mengdong0427@gmail.com> 
 
 # Install build-essential, git, wget and other dependencies
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     git \
     curl \
     libfreetype6-dev \
-    libopenblas-dev \
     libopencv-dev \
-    liblapack-dev \
+    libcurl3-dev \
+    libhdf5-serial-dev \
+    libpng12-dev \
+    libzmq3-dev \ 
     python3 \
     python3-dev \
     python3-pip \
