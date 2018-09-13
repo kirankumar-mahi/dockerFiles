@@ -2,8 +2,6 @@ ipython
 jupyter
 numpy
 graphviz
-mxnet
-xgboost
 opencv-python
 easydict
 scipy 
