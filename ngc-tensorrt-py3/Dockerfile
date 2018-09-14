@@ -21,7 +21,7 @@ RUN mkdir /usr/local/cuda-9.0/lib &&  \
 
 # Download and build TensorFlow.
 WORKDIR /tensorflow
-RUN git clone --branch=r1.10 --depth=1 https://github.com/tensorflow/tensorflow.git .
+RUN git clone --branch=r1.11 --depth=1 https://github.com/tensorflow/tensorflow.git .
 
 # Configure the build for our CUDA configuration.
 ENV CI_BUILD_PYTHON python
